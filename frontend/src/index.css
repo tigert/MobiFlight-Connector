@@ -161,7 +161,7 @@
     /* Secondary / subtle backgrounds (sidebars, chips, etc.) */
     --secondary: var(--base-hue-dark) var(--base-saturation-dark) 14%;
     --secondary-foreground: 210 40% 96%;
-    /* sidbar feed */
+    /* sidebar feed */
     --muted: var(--base-hue-dark) var(--base-saturation-dark) 14%;
     --muted-foreground: var(--base-hue-dark) var(--base-saturation-dark) 70%;
 
