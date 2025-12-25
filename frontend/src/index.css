@@ -145,7 +145,7 @@
     --base-hue-dark: 240;
     --base-saturation-dark: 6.2;
 
-    --background: var(--base-hue-dark) var(--base-saturation-dark) 8.8%; /* main app background */
+    --background: var(--base-hue-dark) var(--base-saturation-dark) 14%; /* main app background */
     --foreground: 210 40% 92%; /* almost-white text */
 
     /* Surfaces */
