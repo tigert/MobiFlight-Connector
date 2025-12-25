@@ -76,7 +76,7 @@ export const ProjectCardTitle = ({
           className={buttonClassName}
           onClick={navigateToProject}
         >
-          <IconChevronRight className={cn("text-primary", iconClassName)} />
+          <IconChevronRight className={cn("text-primary dark:text-foreground", iconClassName)} />
         </Button>
       )}
     </div>
