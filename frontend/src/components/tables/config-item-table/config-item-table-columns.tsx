@@ -58,7 +58,7 @@ export const columns: ColumnDef<IConfigItem>[] = [
   {
     meta: {
       className: "hidden w-44 2xl:w-1/6 lg:table-cell",
-      cellClassName: "bg-slate-500/5 dark:bg-gray-400/5 pl-2",
+      cellClassName: "pl-2",
     },
     accessorKey: "ModuleSerial",
     header: () => {
@@ -74,7 +74,7 @@ export const columns: ColumnDef<IConfigItem>[] = [
   {
     meta: {
       className: "w-12 lg:w-44 2xl:w-1/6",
-      cellClassName: "bg-slate-500/5 dark:bg-gray-400/5"
+      cellClassName: "pl-2"
     },
     accessorKey: "Device",
     header: () => {
@@ -137,7 +137,7 @@ export const columns: ColumnDef<IConfigItem>[] = [
   {
     meta: {
       className: "w-24",
-      cellClassName: "bg-slate-500/5 dark:bg-gray-400/5"
+      cellClassName: "pl-2"
     },
     size: 100,
     accessorKey: "Status",
@@ -151,7 +151,7 @@ export const columns: ColumnDef<IConfigItem>[] = [
   {
     meta: {
       className: "w-16 lg:w-24 xl:w-32",
-      cellClassName: "bg-slate-500/5 dark:bg-gray-400/5"
+      cellClassName: "pl-2"
     },
     accessorKey: "RawValue",
     header: () => {
@@ -164,7 +164,7 @@ export const columns: ColumnDef<IConfigItem>[] = [
   {
     meta: {
       className: "w-16 lg:w-24 xl:w-32",
-      cellClassName: "bg-slate-500/5 dark:bg-gray-400/5"
+      cellClassName: "pl-2"
     },
     accessorKey: "Value",
     header: () => {
@@ -177,7 +177,7 @@ export const columns: ColumnDef<IConfigItem>[] = [
   {
     meta: {
       className: "w-20",
-      cellClassName: "bg-slate-500/5 dark:bg-gray-400/5"
+      cellClassName: "pl-2"
     },
     id: "actions",
     header: () => {
